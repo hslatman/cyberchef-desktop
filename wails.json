@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "cyberchef",
+  "outputfilename": "cyberchef",
+  "frontend:install": "npm install",
+  "frontend:build": "bash ./rename.sh",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Herman Slatman",
+    "email": "hermanslatman@hotmail.com"
+  }
+}
